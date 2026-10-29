@@ -1,49 +1,57 @@
 # 🧮 Calculadora em Python
 
-Uma calculadora de terminal feita em Python para praticar lógica de programação e os fundamentos da linguagem.
+Calculadora de terminal desenvolvida em Python como projeto de prática pessoal, com foco em lógica de programação, estruturas condicionais, laços de repetição e tratamento de erros.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- Soma, subtração, multiplicação e divisão
+- Realiza operações de soma, subtração, multiplicação e divisão
 - Aceita números inteiros e decimais
-- Aceita vírgula ou ponto como separador decimal
-- Verifica divisão por zero
+- Permite utilizar vírgula ou ponto como separador decimal
+- Identifica tentativas de divisão por zero
 - Trata entradas numéricas inválidas
-- Permite fazer vários cálculos sem reiniciar o programa
-- Usa cores no terminal para destacar mensagens
+- Permite realizar vários cálculos na mesma execução
+- Utiliza cores ANSI e mensagens personalizadas para melhorar a experiência no terminal
 
-## Tecnologias
+## 🛠️ Tecnologias
 
-- Python 3
+- **Python 3**
+- **ANSI Escape Codes** para cores e formatação no terminal
 
-## Como executar
+## 🚀 Como executar
 
 1. Instale o [Python 3](https://www.python.org/downloads/).
-2. Baixe ou clone este repositório.
+2. Clone este repositório ou baixe os arquivos.
 3. Abra o terminal na pasta do projeto.
-4. Execute:
+4. Execute o comando:
 
 ```bash
 python calculadora.py
 ```
 
-Em alguns computadores, pode ser necessário usar `python3 calculadora.py`.
+Se necessário, utilize:
 
-## O que pratiquei
+```bash
+python3 calculadora.py
+```
+
+## 📚 Conceitos praticados
 
 - Variáveis e tipos de dados
-- Entrada e saída de informações
+- Entrada e saída de dados com `input()` e `print()`
+- Conversão de tipos e manipulação de strings
 - Operadores matemáticos
 - Estruturas condicionais (`if`, `elif` e `else`)
-- Laço de repetição (`while`)
-- Tratamento de erros com `try` e `except`
-- Formatação de texto e cores ANSI no terminal
+- Laços de repetição (`while`)
+- Tratamento de exceções com `try` e `except`
+- Formatação de strings com f-strings
+- Cores e formatação ANSI no terminal
 
-## Próximas melhorias
+## 🔮 Próximas melhorias
 
-- [ ] Adicionar histórico dos cálculos
+- [ ] Implementar histórico dos cálculos
 - [ ] Organizar as operações em funções
+- [ ] Melhorar a validação das entradas
 
 ---
 
-Projeto de prática pessoal desenvolvido durante meus estudos de Python.
+*Projeto de prática pessoal desenvolvido durante meus estudos de Python.*
